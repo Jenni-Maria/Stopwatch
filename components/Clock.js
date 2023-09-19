@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, String, Math } from "react-native"
+import { View, Text, StyleSheet } from "react-native"
 import React, {useState} from 'react'
 import {useRef} from 'react'
 import Toggle from "./Toggle";
