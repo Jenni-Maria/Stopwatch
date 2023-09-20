@@ -31,7 +31,7 @@ const formatSecondsToTime = () => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.display}>{formatSecondsToTime} </Text>
+            <Text style={styles.display}>{formatSecondsToTime()} </Text>
             <Toggle start={start} reset={stop}/>
         </View>
     )
